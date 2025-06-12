@@ -1,0 +1,9 @@
+if SHIELD_NANOKB
+
+config ZMK_KEYBOARD_NAME
+    default "NanoKB"
+
+CONFIG_EC11=y
+CONFIG_EC11_TRIGGER_GLOBAL_THREAD=y
+
+endif
